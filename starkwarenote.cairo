@@ -11,7 +11,7 @@ mod Whatisgoingon {
     #[external]
     fn Say_byebye(message: felt252) {
         let caller = get_caller_address();
-        Byesir(caller, message);
+        Byeser(caller, message);
     }
 
 }
