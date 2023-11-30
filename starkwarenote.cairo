@@ -1,5 +1,5 @@
 #[contract]
-mod Whatisgoingon {
+mod Whaer {
     use starknet::get_caller_address;
     use starknet::ContractAddress;
 
