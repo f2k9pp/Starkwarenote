@@ -9,7 +9,7 @@ mod Whaer {
 
 
     #[external]
-    fn Say_byebye(message: felt252) {
+    fn Say_bwhodaye(message: felt252) {
         let caller = get_caller_address();
         Byeser(caller, message);
     }
