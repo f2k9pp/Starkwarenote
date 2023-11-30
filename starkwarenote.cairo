@@ -8,7 +8,7 @@ mod Whaer {
     fn Bye(from: ContractAddress, value: felt252) {}
 
 
-    #[external]
+    #[internal]
     fn Say_bwhodaye(message: felt252) {
         let caller = get_caller_address();
         Based(caller, message);
