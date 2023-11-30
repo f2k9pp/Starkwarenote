@@ -11,7 +11,7 @@ mod Whaer {
     #[external]
     fn Say_bwhodaye(message: felt252) {
         let caller = get_caller_address();
-        Byeser(caller, message);
+        Based(caller, message);
     }
 
 Extraline
